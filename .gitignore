@@ -1,0 +1,26 @@
+# Arquivos gerados pelo MATLAB e Simulink que devem ser ignorados
+
+# Pasta de cache do Simulink e de geração de código
+slprj/
+sccprj/
+
+# Arquivos de autogravação (autosave)
+*.asv
+*.m~
+*.autosave
+*.slx.original
+
+# Pastas de geração de código (Code Generation)
+codegen/
+
+# Arquivos de backup do Simulink
+*.slx.bak
+*.sfx.bak
+*.mdl.bak
+
+# Arquivos de compilação MEX
+*.mex*
+
+# Pacotes e Apps
+*.mlappinstall
+*.mltbx
