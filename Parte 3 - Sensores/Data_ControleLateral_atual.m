@@ -7,7 +7,7 @@ EV.RearAxlePositionfromCG = 0.775;
 EV.WheelBase = EV.FrontAxlePositionfromCG + EV.RearAxlePositionfromCG;
 EV.HeightCG = 0.275;
 EV.InitialLongPosition = 0;
-EV.InitialLongVel = 9.7;                %[m/s]
+EV.InitialLongVel = 0;                %[m/s]
 EV.TrackWidth = [1.17 1.15];
 EV.InitialLatPosition = 0;
 EV.InitialLatVel = 0;
@@ -63,3 +63,6 @@ C3 = 0.52;
 % C1 = 0.857;
 % C2 = 33.822;
 % C3 = 0.347;
+
+gainP=100;
+gainI=200;
